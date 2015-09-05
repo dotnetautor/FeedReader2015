@@ -8,17 +8,16 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace FeedReader.Xamarin.Forms.WinPhone
-{
-	public partial class MainPage : global::Xamarin.Forms.Platform.WinPhone.FormsApplicationPage
-	{
-		public MainPage ()
-		{
-			InitializeComponent ();
-			SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
+namespace FeedReader.Xamarin.Forms.WinPhone {
+  public class ProxyPage : global::Xamarin.Forms.Platform.WinPhone.FormsApplicationPage { }
 
-			global::Xamarin.Forms.Forms.Init ();
-			LoadApplication (new FeedReader.Xamarin.Forms.App ());
-		}
-	}
+  public partial class MainPage : ProxyPage {
+    public MainPage() {
+      InitializeComponent();
+      SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
+
+      global::Xamarin.Forms.Forms.Init();
+      LoadApplication(new FeedReader.Xamarin.Forms.App());
+    }
+  }
 }

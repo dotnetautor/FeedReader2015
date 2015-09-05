@@ -2,7 +2,7 @@
 
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US"/>
-  <App xmlns="" ProductID="{54df9722-0864-43b4-a96f-b7df47f2c40b}" Title="FeedReader.Xamarin.Forms.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="FeedReader.Xamarin.Forms.WinPhone author" Description="Sample description" Publisher="FeedReader.Xamarin.Forms.WinPhone" PublisherID="{2442a740-296b-4f27-b240-974002ce3d2e}">
+  <App xmlns="" ProductID="{e8142688-3c47-400d-9f29-47d86839058c}" Title="FeedReader.Xamarin.Forms.WinPhone" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal"  Author="FeedReader.Xamarin.Forms.WinPhone author" Description="Sample description" Publisher="FeedReader.Xamarin.Forms.WinPhone" PublisherID="{15d4c0e8-0429-44a2-b940-12d16e8cadb9}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING"/>

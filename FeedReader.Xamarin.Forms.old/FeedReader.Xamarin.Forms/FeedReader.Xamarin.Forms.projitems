@@ -10,6 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\DataManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FeedItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\FeedOverviewCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\DelegateCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\HttpExtentions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\FeedReaderViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
